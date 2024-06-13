@@ -1,0 +1,15 @@
+{
+  "name": "keyway-portal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.0.0",
+    "htmx.org": "^1.8.0"
+  },
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./static/css/tailwind.css -o ./static/css/tailwind.css",
+    "watch:css": "npx tailwindcss -i ./static/css/tailwind.css -o ./static/css/tailwind.css --watch"
+  }
+}
+
